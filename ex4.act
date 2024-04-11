@@ -1,0 +1,8 @@
+; ex4.act
+PROC MAIN()
+BYTE I
+  FOR I=2 TO 10 STEP 2 
+  DO
+    PRINTBE(I)
+  OD
+RETURN
