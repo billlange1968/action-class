@@ -1,0 +1,7 @@
+; ex1.act
+PROC MAIN()
+ PRINTE("") ; blank line
+ PRINTE("JOHN ARRON IS A STEELY-EYED")
+ PRINT("MISSILE MAN")
+ PRINTE("!!!")
+RETURN
