@@ -1,0 +1,12 @@
+; ex6.act
+CARD Y ; global Y
+
+CARD FUNC SQUARE(CARD X) ; function with parameter and return value
+CARD Z  
+Z = X * X
+RETURN (Z)
+
+PROC MAIN() ; main procedure
+Y = SQUARE(5)
+PRINTCE(Y)
+RETURN
