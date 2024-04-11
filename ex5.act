@@ -1,0 +1,12 @@
+; ex5.act
+PROC MAIN()
+BYTE X
+  GRAPHICS(0) ; CLEAR SCREEN
+  PRINTE("") ; PRINT BLANK LINE
+  X=1
+  WHILE X<10
+  DO
+    PRINTBE(X)
+    X=X+1
+  OD
+RETURN
